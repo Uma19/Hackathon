@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>hackerton_project</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="chilkat-x64" Version="9.5.0.78" />
+    <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.5.1" />
+    <PackageReference Include="Sendgrid" Version="9.11.0" />
+  </ItemGroup>
+
+</Project>
